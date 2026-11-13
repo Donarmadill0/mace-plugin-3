@@ -1,0 +1,12 @@
+name: PlutusMace
+version: '${version}'
+main: com.plutus.PlutusMacePluginV2
+api-version: '1.21'
+description: Advanced blood mace plugin with auto-hosted resource pack and abilities.
+commands:
+  giveplutus:
+    description: Get the Plutus Mace
+    permission: plutus.admin
+permissions:
+  plutus.admin:
+    default: op
